@@ -78,6 +78,10 @@ h1 img {
    border-radius: 0.7vw;
 }
 .button-chat img {
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   transform: translateY(-50%);
    width: 1.3vw;
    margin-right: 0.5vw;
 }
@@ -91,7 +95,6 @@ h1 img {
    background: #f9f9f9;
    padding: 1.1vw 1.4vw;
    border-radius: 0.7vw;
-
 }
 .button-email {
    margin-right: 0;
@@ -138,13 +141,13 @@ h1 img {
       margin-right: 1.5vw;
    }
    .button-chat span {
-      font-size: 3.5vw; 
+      font-size: 3.5vw;
    }
    .button-call,
    .button-email {
       padding: 4vw 5vw;
       border-radius: 3vw;
-   } 
+   }
    .button-email {
       margin-right: 0;
    }
